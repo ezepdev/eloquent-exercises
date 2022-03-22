@@ -11,3 +11,7 @@ function generateARange(start, end, step) {
   if (start === end) return [start];
   return [start].concat(range(start + step, end, step));
 }
+
+const sumRange = (numbers) => {
+  return numbers.reduce((number, tatal) => number + tatal, 0);
+};
