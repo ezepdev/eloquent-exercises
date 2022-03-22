@@ -3,7 +3,7 @@ function isEven(nro) {
 }
 
 function buildRowEven(size) {
-  return buildRow(" ", "#", 8);
+  return buildRow(" ", "#", size);
 }
 
 function buildRow(evenPosition, oddPosition, size) {
@@ -15,7 +15,7 @@ function buildRow(evenPosition, oddPosition, size) {
 }
 
 function buildRowOdd(size) {
-  return buildRow("#", " ", 8);
+  return buildRow("#", " ", size);
 }
 
 function insertNewline(string) {
